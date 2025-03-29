@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Mostrar un dia de la semana</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
@@ -22,11 +22,11 @@
                         <label for="">Ingresa un numero:</label>
                         <input type="nummber" name="number_day" min="1" max="7" step="1" id="number_day" class="form-control">
                     </div>
-                    <button class="btn btn-outline-success btn-sm">Enviar</button>
+                    <button type="submit" class="btn btn-outline-success btn-sm">Enviar</button>
                 </form>
             </div>
             <div class="card-footer">
-                <p class="text-succes text-center" id="display_day_string"></p>
+                <p class="text-succes text-center">Resultado de su elección: <strong id="display_day_string"></strong></p>
             </div>
         </div>
     </div>
